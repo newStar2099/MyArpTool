@@ -3,9 +3,7 @@
     功能：网卡枚举、网关MAC获取、ARP欺骗发包
     依赖：iphlpapi, ws2_32, comctl32
     运行时依赖：Npcap (用于ARP发包)
-    需要管理员权限运行, MINGW64 ~中编译:
-    #  windres resource.rc -o resource.o                                             
-    #  # g++ MyArpTool.cpp resource.o -o MyArpTool.exe -liphlpapi -lws2_32 -lcomctl32 -mwindows -lgdi32 -lshell32 -static -O2
+    需要管理员权限运行, 在MINGW64 ~中编译通过
 */
 
 #ifndef UNICODE
